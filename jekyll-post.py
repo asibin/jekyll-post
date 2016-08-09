@@ -52,7 +52,7 @@ def main():
     date_today = datetime_today.date()
     datetime_post = datetime_today.strftime("%Y-%m-%d %H:%M:%S")
 
-    filename = "_{}-{}.md".format(date_today, sanitize_post_title(post_title))
+    filename = "{}-{}.md".format(date_today, sanitize_post_title(post_title))
     file_path = os.path.join(os.getcwd(), "_posts", filename)
 
     post_header = post_template.format(title=post_title,
