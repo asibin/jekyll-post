@@ -8,7 +8,7 @@ Not too much error handling :)
 
 Run from root of website dir. 
 
-File will be created in _posts.
+File will be created in `_posts`.
 
 File is created as unpublished post. 
 
